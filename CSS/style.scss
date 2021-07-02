@@ -24,9 +24,9 @@ h3, h4, p {
 
 .hidetext {
     position: absolute;
-    width: 30vw;
+    width: 80vw;
     z-index: 200;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 #color-block-container {
@@ -53,13 +53,9 @@ h3, h4, p {
     flex-direction: column;
     justify-content: center;
 
-    // border: 3px yellow dashed;
-}
+    
 
-#subtitle-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    // border: 3px yellow dashed;
 }
 
 #page-title {
@@ -76,6 +72,21 @@ h3, h4, p {
     margin: 0 0 24px;
     
     // border: 1px green dashed;
+}
+
+#subtitle-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 80vw;
+    height: 70px;
+
+    // border: 1px green dashed;
+}
+
+#subtitle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #profile-img {
