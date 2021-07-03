@@ -1,3 +1,27 @@
+// Set width of .people-content-container to parent div
+$('.people-content-container').each(function() {
+    var thisWidth = $(this).closest('div.people-content-container').width();
+    $(this).closest('div.people-content-container').parent().width(thisWidth);
+})
+
+
+// Case highlight hover state
+// $('#credena-highlight').on('mouseover', function() {
+//     TweenMax.to('#credena-highlight', 0.25, {
+//         // padding: '0 0 24px',
+//         // boxShadow: '0px 4px 24px rgba(0, 0, 0, 0.75)',
+//         boxSizing: 'border-box',
+//         border: '2px black solid',
+//     })
+// }).on('mouseleave', function() {
+//     TweenMax.to('#credena-highlight', 0.25, {
+//         // padding: '0px',
+//         // boxShadow: '0px 0px 0px rgba(0, 0, 0, 0)',
+//         border: 'none',
+//     })
+// })
+
+
 gsap.registerPlugin(ScrollTrigger);
 tl = new TimelineMax ({});
 
