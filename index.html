@@ -10,8 +10,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
-        
-        <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/CSSRulePlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+            
+        <title>John's Year in Review</title>
     </head>
     <body>
         <div id="color-block-container">
@@ -44,9 +48,11 @@
                     <div id="highlighted-cases">
                         <div id='credena-highlight' class="highlighted-case-wrapper">
                             <div class="highlighted-case hidetext">
-                                <img src="assets/2020-2021/credena-case.png" alt="" class="highlighted-case-cover-img">
+                                <div class="highlighted-case-img-container">
+                                    <img src="assets/2020-2021/credena-case.png" alt="" class="highlighted-case-cover-img">
+                                </div>
                                 <div class="highlighted-case-texts">
-                                    <h3 class="highlighted-case-title">Credena</h3>
+                                    <h3 class="highlighted-case-title">Credena Pharmacy</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
@@ -59,9 +65,11 @@
                         </div>
                         <div id='sony-highlight' class="highlighted-case-wrapper">
                             <div class="highlighted-case hidetext">
-                                <img src="assets/2020-2021/sony-case.png" alt="" class="highlighted-case-cover-img">
+                                <div class="highlighted-case-img-container">
+                                    <img src="assets/2020-2021/sony-case.png" alt="" class="highlighted-case-cover-img">
+                                </div>
                                 <div class="highlighted-case-texts">
-                                    <h3 class="highlighted-case-title">Sony</h3>
+                                    <h3 class="highlighted-case-title">Sony Entertainment</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
@@ -74,7 +82,9 @@
                         </div>
                         <div id='gates-highlight' class="highlighted-case-wrapper">
                             <div class="highlighted-case hidetext">
-                                <img src="assets/2020-2021/gates-case.png" alt="" class="highlighted-case-cover-img">
+                                <div class="highlighted-case-img-container">
+                                    <img src="assets/2020-2021/gates-case.png" alt="" class="highlighted-case-cover-img">
+                                </div>
                                 <div class="highlighted-case-texts">
                                     <h3 class="highlighted-case-title">Gates Foundation</h3>
                                     <div class="date-container">
@@ -100,28 +110,28 @@
                     <div id="additional-achievements-container">
                         <div class="additional-achievements-row-wrapper">
                             <div class="additional-achievements-row hidetext">
-                                <div class="additional-achievement-container">
+                                <div id='ac-gsaopp' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">GSA One Pager Plan PowerApp</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
                                     </div>
                                 </div>
-                                <div class="additional-achievement-container">
+                                <div id='ac-gsavp' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">GSA Video Portfolio Production</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
                                     </div>
                                 </div>
-                                <div class="additional-achievement-container">
+                                <div id='ac-ttp-credena' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">Third Thursday Presentation: Credena</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
                                     </div>
                                 </div>
-                                <div class="additional-achievement-container">
+                                <div id='ac-pad' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">PowerApps Design System Champions</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
@@ -132,28 +142,28 @@
                         </div>
                         <div class="additional-achievements-row-wrapper">
                             <div class="additional-achievements-row hidetext">
-                                <div class="additional-achievement-container">
+                                <div id='ac-nysfj' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">NY Studio Function Junction</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
                                     </div>
                                 </div>
-                                <div class="additional-achievement-container">
+                                <div id='ac-fuel' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">FUEL Conference 2021 Speaker</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
                                     </div>
                                 </div>
-                                <div class="additional-achievement-container">
+                                <div id='ac-ft1' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">Creating Responsive Auto Layout on Figma</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
                                         <h4 class="case-date">Dec 2020 – Mar 2021</h4>
                                     </div>
                                 </div>
-                                <div class="additional-achievement-container">
+                                <div id='ac-ft2' class="additional-achievement-container">
                                     <h3 class="additional-achievement-title">How to Build Design System on Figma</h3>
                                     <div class="date-container">
                                         <img src="assets/2020-2021/project-date.svg" alt="" class="date-icon">
@@ -214,28 +224,28 @@
                                     <h3 class="people-content-header">Check Ins</h2>
                                     <div class="people-content-row">
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-1' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Richard</span>
                                                     <br>
-                                                    <span class="last-name">Vander Meer</span>
+                                                    <span class="last-name">Vander <br>Meer</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-2' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Ian</span>
                                                     <br>
                                                     <span class="last-name">Skeen</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-3' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Eden</span>
                                                     <br>
                                                     <span class="last-name">Robbins</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-4' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Maggie</span>
                                                     <br>
@@ -253,28 +263,28 @@
                                     <h3 class="people-content-header">Coffee Chats</h2>
                                     <div class="people-content-row">
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-5' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Hani</span>
                                                     <br>
                                                     <span class="last-name">Zandi</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-6' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Janie</span>
                                                     <br>
                                                     <span class="last-name">Park</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-7' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Jordan</span>
                                                     <br>
                                                     <span class="last-name">Smith</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-8' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Jayden</span>
                                                     <br>
@@ -283,28 +293,28 @@
                                             </div>
                                         </div>
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-9' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Hallam</span>
                                                     <br>
                                                     <span class="last-name">Sargeant</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-10' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Lena</span>
                                                     <br>
                                                     <span class="last-name">Miller</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-11' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Austin</span>
                                                     <br>
                                                     <span class="last-name">Straley</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-12' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Mira</span>
                                                     <br>
@@ -313,28 +323,28 @@
                                             </div>
                                         </div>
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-13' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Allyson</span>
                                                     <br>
                                                     <span class="last-name">Meyer</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-14' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Wais</span>
                                                     <br>
                                                     <span class="last-name">Hossain</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-15' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Amanda</span>
                                                     <br>
                                                     <span class="last-name">Farrington</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-16' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Nik</span>
                                                     <br>
@@ -343,28 +353,28 @@
                                             </div>
                                         </div>
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-17' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Samiha</span>
                                                     <br>
                                                     <span class="last-name">Rahman</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-18' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Camille</span>
                                                     <br>
                                                     <span class="last-name">Dihiansan</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-19' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Daisy</span>
                                                     <br>
                                                     <span class="last-name">Shi</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-20' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Noman</span>
                                                     <br>
@@ -373,14 +383,14 @@
                                             </div>
                                         </div>
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-21' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Anita</span>
                                                     <br>
                                                     <span class="last-name">Jivani</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-22' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Ethan</span>
                                                     <br>
@@ -398,28 +408,28 @@
                                     <h3 class="people-content-header">New Recruits?</h2>
                                     <div class="people-content-row">
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-23' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Tony</span>
                                                     <br>
                                                     <span class="last-name">Moaton</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-24' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Ahni</span>
                                                     <br>
                                                     <span class="last-name">Williams</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-25' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Scott</span>
                                                     <br>
                                                     <span class="last-name">Atkin</span>
                                                 </p>
                                             </div>
-                                            <div class="people-content">
+                                            <div id='pc-26' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Sally</span>
                                                     <br>
@@ -428,7 +438,7 @@
                                             </div>
                                         </div>
                                         <div class="people-content-column">
-                                            <div class="people-content">
+                                            <div id='pc-27' class="people-content">
                                                 <p class="people-name">
                                                     <span class="first-name">Raksha</span>
                                                     <br>

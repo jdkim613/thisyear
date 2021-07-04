@@ -164,6 +164,7 @@ h3, h4, p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     // border: 1px green dashed;
 }
@@ -183,11 +184,20 @@ h3, h4, p {
     // border: 1px yellow dashed;
 }
 
+.highlighted-case-img-container {
+    width: 22.5vw;
+    height: 275px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
 .highlighted-case-cover-img {
     width: 22.5vw;
     height: 275px;
     object-fit: cover;
-    border-radius: 4px;
+    scale: 1;
+
+    // border: 1px pink dashed;
 }
 
 .highlighted-case-texts {
@@ -243,6 +253,9 @@ h3, h4, p {
 }
 
 .additional-achievement-title {
+    color: #FFFFFF;
+    opacity: 0.5;
+    display: flex;
     white-space: pre-line;
     word-wrap: break-word;
     font-size: 32px;
@@ -283,7 +296,6 @@ h3, h4, p {
 
 .people-content-container {
     width: auto;
-    // flex-direction: column;
 
     // border: 1px yellow dashed;
 }
